@@ -104,6 +104,7 @@ qx.Theme.define("qx.theme.clean.Color",
 	"primary-button-box-hovered" : "#458ac6",
 	"primary-button-box-pressed" : "#3576ac",
 	"primary-button-text" : "#ffffff",
+	"primary-button-text-disabled" : "#86b3da",
 	
 	//*** SQv Secondary Button colors
 	"secondary-button-box" : "#1b1c1d",
@@ -111,6 +112,7 @@ qx.Theme.define("qx.theme.clean.Color",
 	"secondary-button-box-pressed" : "#0a0a0b",
 	"secondary-button-inset-shadow" : "rgba(39, 41, 43, 0.15)",
 	"secondary-button-text" : "primary-button-text",
+	"secondary-button-text-disabled" : "text-disabled",
 	
 	//*** SQv Tertiary Button colors
 	"tertiary-button-box" : "#5bbd72",
@@ -118,6 +120,7 @@ qx.Theme.define("qx.theme.clean.Color",
 	"tertiary-button-box-pressed" : "#46AE5F",
 	"tertiary-button-inset-shadow" : "rgba(39, 41, 43, 0.15)",
 	"tertiary-button-text" : "primary-button-text",
+	"tertiary-button-text-disabled" : "#a4dbb1",
 	
 	"sqv-black" : qx.core.Environment.get("css.rgba") ? "rgba(0, 0, 0, 1)" : "#000000",
 	"sqv-arrow-gray" : qx.core.Environment.get("css.rgba") ? "rgba(0, 0, 0, 0.6)" : "#444444",

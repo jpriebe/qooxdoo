@@ -2312,6 +2312,25 @@ qx.Theme.define("qx.theme.clean.Appearance",
     		};
     	}
     },
+
+    "primary-button/label" :
+    {
+        include : "label",
+
+        style : function(states)
+        {
+            if (states.disabled) {
+                return {
+                    textColor : "primary-button-text-disabled"
+                }
+            }
+
+            return {
+                textColor : "primary-button-text"
+            }
+        }
+    },
+
     
     /*
     ---------------------------------------------------------------------------
@@ -2360,7 +2379,25 @@ qx.Theme.define("qx.theme.clean.Appearance",
     },
     
     "secondary-button/icon" : "primary-button/icon",
-    
+
+    "secondary-button/label" :
+    {
+        include : "label",
+
+        style : function(states)
+        {
+            if (states.disabled) {
+                return {
+                    textColor : "secondary-button-text-disabled"
+                }
+            }
+
+            return {
+                textColor : "secondary-button-text"
+            }
+        }
+    },
+
     /*
     ---------------------------------------------------------------------------
       SQv
@@ -2409,7 +2446,24 @@ qx.Theme.define("qx.theme.clean.Appearance",
     
     "tertiary-button/icon" : "primary-button/icon",
     
-    
+    "tertiary-button/label" :
+    {
+        include : "label",
+
+        style : function(states)
+        {
+            if (states.disabled) {
+                return {
+                    textColor : "tertiary-button-text-disabled"
+                }
+            }
+
+            return {
+                textColor : "tertiary-button-text"
+            }
+        }
+    },
+
     "svgbutton" :
     {
       include : "button",
