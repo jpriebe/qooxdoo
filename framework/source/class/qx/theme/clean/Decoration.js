@@ -2157,8 +2157,8 @@ qx.Theme.define("qx.theme.clean.Decoration",
       style :
       {
         radius : 3,
-        width : 10,
-        color : "green",
+        width : 1,
+        color : "table-border",
         style : "solid"
       }
     },
